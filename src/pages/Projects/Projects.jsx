@@ -125,7 +125,28 @@ const Projects = () => {
                     },
                 ]}
             />
-            <div style={{ display: "block", width: "100%", background: "#fafafb", borderRadius: "8px" }}></div>
+            <ImageItem
+                imagesToIgnore={["https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x.gif"]}
+                itemSet={[
+                    {
+                        mainTitle: "Hygglish",
+                        subTitle: "Inbar Even Zur for Pumika",
+                        images: [
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/Untitled-1.png",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/hyggelig.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x%20-%20Copy.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/julelo.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/chef.gif",
+                        ],
+                        description: (
+                            <div>
+                                <p style={{ margin: "1em 0" }}>TODO</p>
+                            </div>
+                        ),
+                    },
+                ]}
+            />
             <div style={{ display: "block", width: "100%", background: "#fafafb", borderRadius: "8px" }}></div>
         </S.Projects>
     );
