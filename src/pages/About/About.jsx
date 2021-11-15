@@ -16,7 +16,7 @@ const About = () => {
                     <S.BiographyContent>
                         <Text size="16px">
                             I'm a product designer based in Tel Aviv, Israel with experience in delivering end-to-end UX/UI design for software
-                            products. I'm passionate about improving the lives of others through design and am constantly looking to learn new things
+                            products. I'm passionate about creating fun experiences through design, and am constantly looking to learn new things
                             everyday.
                         </Text>
                     </S.BiographyContent>

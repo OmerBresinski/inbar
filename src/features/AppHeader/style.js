@@ -19,6 +19,9 @@ export const Info = styled.div`
 
 export const Cover = styled.div`
     height: 100%;
+    @media (max-width: 1475px) {
+        display: none;
+    }
 `;
 
 export const AvatarWrapper = styled.div`
