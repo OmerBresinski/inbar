@@ -32,8 +32,11 @@ const ImageItem = ({ itemSet, withPassword, width = "100%", height, imagesToIgno
                     <>
                         <Video src={firstImage} />
                         <S.Info onClick={handleImageClick}>
-                            <Text size="16px" color="#fff" bold>
-                                Dog company: Web design
+                            <Text size="17px" color="#fff" bold>
+                                {itemSet[0].mainTitle}
+                            </Text>
+                            <Text size="14x" color="#e7e7e7">
+                                {itemSet[0].hoverSubtitle}
                             </Text>
                         </S.Info>
                     </>
@@ -41,8 +44,11 @@ const ImageItem = ({ itemSet, withPassword, width = "100%", height, imagesToIgno
                     <>
                         <Image width={width} height={height} src={firstImage} radius="8px" />
                         <S.Info onClick={handleImageClick}>
-                            <Text size="15px" color="#fff" bold>
-                                Dog company: Web design
+                            <Text size="17px" color="#fff" bold>
+                                {itemSet[0].mainTitle}
+                            </Text>
+                            <Text size="14px" color="#e7e7e7">
+                                {itemSet[0].hoverSubtitle}
                             </Text>
                         </S.Info>
                     </>

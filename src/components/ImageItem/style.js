@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Info = styled.div`
     display: flex;
+    flex-direction: column;
     opacity: 0;
     position: absolute;
-    align-items: flex-end;
+    justify-content: flex-end;
     top: 0;
     height: calc(100% - 7px);
     border-radius: 8px;

@@ -12,6 +12,7 @@ const Projects = () => {
                     {
                         mainTitle: "Merge Stories",
                         subTitle: "Inbar Even Zur for Pumika",
+                        hoverSubtitle: "Casual Mobile Game",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/mergestories/splash.40.03.jpeg",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/mergestories/StyleGuide.png",
@@ -33,6 +34,7 @@ const Projects = () => {
                     {
                         mainTitle: "Refundit",
                         subTitle: "A cash-back app for taxes while traveling abroad",
+                        hoverSubtitle: "A cash-back app",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/refundit/a1.png",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/refundit/a2.png",
@@ -68,6 +70,7 @@ const Projects = () => {
                         ],
                     },
                     {
+                        hoverSubtitle: "",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/cycognito/cyco_drildown_4.gif",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/cycognito/3.png",
@@ -77,7 +80,7 @@ const Projects = () => {
                             <div>
                                 <p
                                     style={{ margin: "1em 0" }}
-                                >{`A system which is used to detect secutity breaches within an organization’s servers.`}</p>
+                                >{`A system which is used to detect security breaches within an organization’s servers.`}</p>
                                 <p style={{ margin: "1em 0" }}>{`
                                 During my time at Pumika, I took part in designing the system’s UI, while focusing
                                 on a Sci-Fi theme. This consisted of emphasizing important alerts, while creating a
@@ -93,6 +96,7 @@ const Projects = () => {
                     {
                         mainTitle: "Poker Heat",
                         subTitle: "Inbar Even Zur for Pumika",
+                        hoverSubtitle: "Poker Game for Mobile Devices & Facebook",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/pokerheat.jpeg",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/Ring_info_02.mp4",
@@ -101,6 +105,7 @@ const Projects = () => {
                         ],
                     },
                     {
+                        hoverSubtitle: "",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/image.png",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202018%E2%80%8F.12%E2%80%8F.08%20%D7%91%E2%80%8F.17.21.32.png",
@@ -131,6 +136,7 @@ const Projects = () => {
                     {
                         mainTitle: "Hygglish",
                         subTitle: "Inbar Even Zur for Pumika",
+                        hoverSubtitle: "Isometric Typeface",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x.gif",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/1.png",
