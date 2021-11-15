@@ -115,7 +115,6 @@ const Projects = () => {
                         hoverSubtitle: "",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/image.png",
-                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202018%E2%80%8F.12%E2%80%8F.08%20%D7%91%E2%80%8F.17.21.32.png",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/RINGS_Phonix_milestons_03.png",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/image%20%282%29.png",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/pokerheat/image%20%281%29.png",
