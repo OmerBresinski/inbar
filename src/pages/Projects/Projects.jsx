@@ -133,15 +133,26 @@ const Projects = () => {
                         subTitle: "Inbar Even Zur for Pumika",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x.gif",
-                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/Untitled-1.png",
-                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/hyggelig.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/1.png",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/hygg.gif",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x%20-%20Copy.gif",
-                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/julelo.gif",
-                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/chef.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/Julelo.gif",
+                            "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/Chef.gif",
                         ],
                         description: (
                             <div>
-                                <p style={{ margin: "1em 0" }}>TODO</p>
+                                <p style={{ margin: "1em 0" }}>
+                                    We created an isometric typeface to explore the unique aspects of the Danish language. The font is inspired by
+                                    modularity, which is an integral part of Denmark: from Lego, which is a Danish invention, to the land itself which
+                                    is “made” of hundreds of islands. We decided to make modularity our top value, alongside functionality and
+                                    playfulness.
+                                </p>
+                                <p style={{ margin: "1em 0" }}>
+                                    The website presents Danish words on the screen which are triggered by a keystroke on a specific letter, meaning
+                                    that for each letter pressed, a corresponding Danish word shows up. In addition, the word's translation is also
+                                    shown on screen.
+                                </p>
+                                <p style={{ margin: "1em 0" }}>This project was made in collaboration with Ruti Zaslavsky for Shenkar College.</p>
                             </div>
                         ),
                     },
