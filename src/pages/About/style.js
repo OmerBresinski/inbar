@@ -33,7 +33,7 @@ export const Info = styled.div`
     border-radius: 8px;
     padding: 24px 26px;
     background: #fafafb;
-    height: 60px;
+    height: 90px;
     width: 250px;
     & > :not(:last-child) {
         margin-block-end: 12px;

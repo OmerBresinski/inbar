@@ -8,6 +8,7 @@ export const Text = styled.div`
     line-height: ${({ lineHeight }) => lineHeight};
     color: ${({ color }) => color};
     transition: color 0.13s ease-in-out;
+    cursor: ${({ onClick }) => onClick && "pointer"};
 
     &:hover {
         color: ${({ hoverColor }) => hoverColor};

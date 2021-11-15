@@ -1,6 +1,7 @@
 import React from "react";
 import Text from "../../components/Text";
 import Chip from "../../components/Chip";
+import Image from "../../components/Image";
 import * as S from "./style";
 
 const About = () => {
@@ -42,7 +43,7 @@ const About = () => {
                             fill="none"
                             role="img"
                             class="icon fill-current icon-16"
-                            style={{ width: "16px", height: "16px", marginBlockStart: "-2px", marginInlineEnd: "10px", color: "#3d3d4e" }}
+                            style={{ width: "16px", height: "16px", marginBlockStart: "-2px", marginInlineEnd: "10px", color: "#050505" }}
                         >
                             <path
                                 fill-rule="evenodd"
@@ -52,6 +53,17 @@ const About = () => {
                             ></path>
                         </svg>
                         <Text size="14px">Playtika, Jelly Button</Text>
+                    </S.InfoItem>
+                    <S.InfoItem>
+                        <Image
+                            src="https://inbar-portfolio.fra1.digitaloceanspaces.com/Assets/icons/icon-elsewhere-linkedin-23525155c02d122bf4f3c113fb6c708bed701c83cb9ddcaabd68e757239de377.png"
+                            width={"16px"}
+                            height={"16px"}
+                            url={"https://www.linkedin.com/in/inbar-even-zur-92733a223"}
+                        />
+                        <Text size="14px" url="https://www.linkedin.com/in/inbar-even-zur-92733a223">
+                            <div style={{ marginInlineStart: "11px" }}>LinkedIn</div>
+                        </Text>
                     </S.InfoItem>
                 </S.Info>
             </S.Top>
