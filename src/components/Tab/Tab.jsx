@@ -10,7 +10,7 @@ const Tab = ({ text, url }) => {
     return (
         <S.Tab>
             <Link to={url}>
-                <Text size="17px" bold color={isActive ? PRIMARY_COLOR : SECONDARY_COLOR}>
+                <Text size="17px" bold color={isActive ? PRIMARY_COLOR : SECONDARY_COLOR} hoverColor={isActive ? PRIMARY_COLOR : HOVER_COLOR}>
                     {text}
                 </Text>
             </Link>
@@ -20,5 +20,6 @@ const Tab = ({ text, url }) => {
 
 const PRIMARY_COLOR = "#0d0c22";
 const SECONDARY_COLOR = "#b9b8cd";
+const HOVER_COLOR = "#767597";
 
 export default Tab;

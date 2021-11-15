@@ -11,7 +11,7 @@ const Projects = () => {
                 itemSet={[
                     {
                         mainTitle: "Merge Stories",
-                        subTitle: "Inbar Even Zur for Pumika",
+                        subTitle: "Casual Mobile Game",
                         hoverSubtitle: "Casual Mobile Game",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/mergestories/splash.40.03.jpeg",
@@ -22,8 +22,15 @@ const Projects = () => {
                         ],
                         description: (
                             <div>
-                                <p style={{ margin: "1em 0" }}>{`Hello everyone!`}</p>
-                                <p>{`Description goes here`}</p>
+                                <p
+                                    style={{ margin: "1em 0" }}
+                                >{`Merge Stories is a casual mobile game which I worked on from its early development stages. This included everything from the design language, to UI/UX, as well as the animations.`}</p>
+                                <p
+                                    style={{ margin: "1em 0" }}
+                                >{`As a part of my role, I worked directly with the product team, as well as both the R&D and Monetization teams which worked on the game.`}</p>
+                                <p
+                                    style={{ margin: "1em 0" }}
+                                >{`The game was developed in Unity, and was released on both the Android and the iOS App Stores.`}</p>
                             </div>
                         ),
                     },
@@ -60,7 +67,7 @@ const Projects = () => {
                 itemSet={[
                     {
                         mainTitle: "Cycognito",
-                        subTitle: "Inbar Even Zur for Pumika",
+                        subTitle: "Cyber Defense Desktop App",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/cycognito/locked.jpeg",
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/cycognito/b1.gif",
@@ -135,7 +142,7 @@ const Projects = () => {
                 itemSet={[
                     {
                         mainTitle: "Hygglish",
-                        subTitle: "Inbar Even Zur for Pumika",
+                        subTitle: "Isometric Typeface",
                         hoverSubtitle: "Isometric Typeface",
                         images: [
                             "https://inbar-portfolio.fra1.digitaloceanspaces.com/Projects/hygglish/x.gif",
@@ -158,7 +165,7 @@ const Projects = () => {
                                     that for each letter pressed, a corresponding Danish word shows up. In addition, the word's translation is also
                                     shown on screen.
                                 </p>
-                                <p style={{ margin: "1em 0" }}>This project was made in collaboration with Ruti Zaslavsky for Shenkar College.</p>
+                                <p style={{ margin: "1em 0" }}>This project was made for Shenkar College.</p>
                             </div>
                         ),
                     },

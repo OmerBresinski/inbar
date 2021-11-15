@@ -7,6 +7,8 @@ export const Text = styled.div`
     font-weight: ${({ bolder }) => bolder && "700"};
     line-height: ${({ lineHeight }) => lineHeight};
     color: ${({ color }) => color};
+    transition: color 0.13s ease-in-out;
+
     &:hover {
         color: ${({ hoverColor }) => hoverColor};
     }
