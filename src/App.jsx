@@ -12,7 +12,7 @@ const App = () => {
 
     useEffect(() => {
         appRef.current && setHasLoaded(true);
-    }, [appRef.current]);
+    }, []);
 
     return (
         <BrowserRouter>
