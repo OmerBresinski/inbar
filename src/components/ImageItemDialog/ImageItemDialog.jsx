@@ -32,9 +32,13 @@ const ImageItemDialog = ({ items, onClose, password, imagesToIgnore }) => {
         setIsDirty(true);
     };
 
+    const handlePasswordBackgroundClick = () => {
+        if (!isAuthenticated) onClose();
+    };
+
     return (
         <>
-            <S.ImageItemDialog opacity={opacity} onClick={!isAuthenticated && onClose}>
+            <S.ImageItemDialog opacity={opacity} onClick={handlePasswordBackgroundClick}>
                 {isAuthenticated && (
                     <>
                         <S.DialogHeader onClick={onClose}>
